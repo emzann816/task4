@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <link rel="stylesheet" href="../task1/index.css">
+    <link rel="stylesheet" href="../TASK2/cards.css">
+    <link rel="stylesheet" href="../task3/index.css">
+    <link rel="stylesheet" href="../task4/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <hr class="new1">
+    <div class="opacity"></div>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="links"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#" class="links"><i class="fa fa-info-circle"></i> About</a></li>
+            <li><a href="#" class="links"> <i class="fa fa-list-alt"></i> Categories</a></li>
+            <li><a href="#" class="links"><i class="fa fa-address-book"></i> Contacts</a></li>
+                <li>
+                    <div class="row">
+                       <div class="col-md-4">
+                        <input class="form-control" name="name" type="text" placeholder="Search..." />
+                           <button class="button" aria-hidden="true"><i class="fa fa-search "></i> Search</button> 
+                        </div>
+                    </div>
+               </li>
+               <li  class="login"><a href="login.html"> <i class="fa fa-user-circle"></i> Login </a></li>
+               <li class="signup"><a href="#"> <i class="fa fa-sign-in"></i> Signup </a></li>
+        </ul>
+    </nav>
+<aside>
+    <ul>
+        <li><a href="#" class="asidenav"><i class="fa fa-book">  Kids Books </i></a></li> <br>
+        <li><a href="#" class="asidenav"><i class="fa fa-book">  English Books </i></a></li> <br>
+        <li><a href="#" class="asidenav"><i class="fa fa-book">  Science Books </i></a></li> <br>
+        <li><a href="#" class="asidenav"><i class="fa fa-book">  Math Books </i></a></li> <br>
+        <li><a href="#" class="asidenav"><i class="fa fa-book">  Fiction Books </i></a></li> <br>
+        <li><a href="#" class="asidenav"><i class="fa fa-book">  College Books </i></a></li> <br>
+        <li><a href="#" class="asidenav"><i class="fa fa-book">  Engineering Books </i></a></li> <br>
+        <li><a href="#" class="asidenav"><i class="fa fa-book">  Filipino Books </i></a></li> <br>
+        <li><a href="#" class="asidenav"><i class="fa fa-book">  World Literature Books </i></a></li> <br>
+    </ul>
+    </aside>
+<!-- start of the card -->
+<center>
+    <div class="containters">
+        <div class="mySlides">
+            <img src="books.jpg" class="img-2"/> 
+        </div>
+    
+        <div class="mySlides">
+            <img src="images.jpg" class="img-2"/> 
+        </div>
+        <div class="mySlides">
+            <img src="shareimage.jpg" class="img-2"/> 
+        </div>
+    </div>
+    
+    <br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<br>
+<hr class="new3">
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<div class="inline-cards">
+    <div class="card">
+        <h1 class="card-title">Title Here </h1>
+        <h4 class="card-subtitle">Subtitle here</h4>
+            <div class="card-body">
+                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex eveniet numquam aliquid, natus nostrum consectetur. Doloremque, impedit sunt! Quo maxime facilis nobis iste ea ipsa omnis quibusdam sed pariatur.
+                </p>
+    <br>
+    <button class="card-btn">Click Here</button>
+</div>
+</div> 
+    </div>
+<!-- end of card -->
+<!-- start of the card -->
+<div class="inline-cards">
+    <div class="card">
+        <h1 class="card-title">Title Here </h1>
+        <h4 class="card-subtitle">Subtitle here</h4>
+            <div class="card-body">
+                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex eveniet numquam aliquid, natus nostrum consectetur. Doloremque, impedit sunt! Quo maxime facilis nobis iste ea ipsa omnis quibusdam sed pariatur.
+                </p>
+    <br>
+    <button class="card-btn">Click Here</button>
+</div>
+</div> 
+    </div>
+<!-- end of card -->
+<!-- start of the card -->
+<div class="inline-cards">
+    <div class="card">
+        <h1 class="card-title">Title Here </h1>
+        <h4 class="card-subtitle">Subtitle here</h4>
+            <div class="card-body">
+                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex eveniet numquam aliquid, natus nostrum consectetur. Doloremque, impedit sunt! Quo maxime facilis nobis iste ea ipsa omnis quibusdam sed pariatur.
+                </p>
+    <br>
+    <button class="card-btn">Click Here</button>
+</div>
+</div> 
+    </div>
+<!-- end of card -->
+<!-- start of the card -->
+<div class="inline-cards">
+    <div class="card">
+        <h1 class="card-title">Title Here </h1>
+        <h4 class="card-subtitle">Subtitle here</h4>
+            <div class="card-body">
+                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex eveniet numquam aliquid, natus nostrum consectetur. Doloremque, impedit sunt! Quo maxime facilis nobis iste ea ipsa omnis quibusdam sed pariatur.
+                </p>
+    <br>
+    <button class="card-btn">Click Here</button>
+</div>
+</div> 
+    </div>
+<!-- end of card -->
+<!-- start of the card -->
+<div class="inline-cards">
+    <div class="card">
+        <h1 class="card-title">Title Here </h1>
+        <h4 class="card-subtitle">Subtitle here</h4>
+            <div class="card-body">
+                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex eveniet numquam aliquid, natus nostrum consectetur. Doloremque, impedit sunt! Quo maxime facilis nobis iste ea ipsa omnis quibusdam sed pariatur.
+                </p>
+    <br>
+    <button class="card-btn">Click Here</button>
+</div>
+</div> 
+    </div>
+<!-- end of card -->
+<!-- start of the card -->
+<div class="inline-cards">
+    <div class="card">
+        <h1 class="card-title">Title Here </h1>
+        <h4 class="card-subtitle">Subtitle here</h4>
+            <div class="card-body">
+                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex eveniet numquam aliquid, natus nostrum consectetur. Doloremque, impedit sunt! Quo maxime facilis nobis iste ea ipsa omnis quibusdam sed pariatur.
+                </p>
+    <br>
+    <button class="card-btn">Click Here</button>
+</div>
+</div> 
+    </div>
+<!-- end of card -->
+<!-- start of the card -->
+<div class="inline-cards">
+    <div class="card">
+        <h1 class="card-title">Title Here </h1>
+        <h4 class="card-subtitle">Subtitle here</h4>
+            <div class="card-body">
+                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex eveniet numquam aliquid, natus nostrum consectetur. Doloremque, impedit sunt! Quo maxime facilis nobis iste ea ipsa omnis quibusdam sed pariatur.
+                </p>
+    <br>
+    <button class="card-btn">Click Here</button>
+</div>
+</div> 
+    </div>
+<!-- end of card -->
+<!-- start of the card -->
+<div class="inline-cards">
+    <div class="card">
+        <h1 class="card-title">Title Here </h1>
+        <h4 class="card-subtitle">Subtitle here</h4>
+            <div class="card-body">
+                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex eveniet numquam aliquid, natus nostrum consectetur. Doloremque, impedit sunt! Quo maxime facilis nobis iste ea ipsa omnis quibusdam sed pariatur.
+                </p>
+    <br>
+    <button class="card-btn">Click Here</button>
+</div>
+</div> 
+    </div>
+<!-- end of card -->
+<!-- start of the card -->
+<div class="inline-cards">
+    <div class="card">
+        <h1 class="card-title">Title Here </h1>
+        <h4 class="card-subtitle">Subtitle here</h4>
+            <div class="card-body">
+                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex eveniet numquam aliquid, natus nostrum consectetur. Doloremque, impedit sunt! Quo maxime facilis nobis iste ea ipsa omnis quibusdam sed pariatur.
+                </p>
+    <br>
+    <button class="card-btn">Click Here</button>
+</div>
+</div> 
+    </div>
+<!-- end of card -->
+<!-- start of the card -->
+<div class="inline-cards">
+    <div class="card">
+        <h1 class="card-title">Title Here </h1>
+        <h4 class="card-subtitle">Subtitle here</h4>
+            <div class="card-body">
+                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex eveniet numquam aliquid, natus nostrum consectetur. Doloremque, impedit sunt! Quo maxime facilis nobis iste ea ipsa omnis quibusdam sed pariatur.
+                </p>
+    <br>
+    <button class="card-btn">Click Here</button>
+</div>
+</div> 
+    </div>
+<!-- end of card -->
+<!-- start of the card -->
+<div class="inline-cards">
+    <div class="card">
+        <h1 class="card-title">Title Here </h1>
+        <h4 class="card-subtitle">Subtitle here</h4>
+            <div class="card-body">
+                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex eveniet numquam aliquid, natus nostrum consectetur. Doloremque, impedit sunt! Quo maxime facilis nobis iste ea ipsa omnis quibusdam sed pariatur.
+                </p>
+    <br>
+    <button class="card-btn">Click Here</button>
+</div>
+</div> 
+    </div>
+<!-- end of card -->
+<!-- start of the card -->
+<div class="inline-cards">
+    <div class="card">
+        <h1 class="card-title">Title Here </h1>
+        <h4 class="card-subtitle">Subtitle here</h4>
+            <div class="card-body">
+                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex eveniet numquam aliquid, natus nostrum consectetur. Doloremque, impedit sunt! Quo maxime facilis nobis iste ea ipsa omnis quibusdam sed pariatur.
+                </p>
+    <br>
+    <button class="card-btn">Click Here</button>
+</div>
+</div> 
+    </div>
+<!-- end of card -->
+</center>
+<div class="center">
+    <div class="footer">
+        <center>
+        <table>
+            
+             
+               <tr>
+                <td>
+                    <img src="../task3/logo__2_.png">
+                </td>
+                <td>
+                    <ul>
+                         <li class="links-2"><a href="#">Home</a></li>
+                         <li class="links-2"><a href="#">About</a></li>
+                         <li class="links-2"><a href="#">Categories</a></li>
+                         <li class="links-2"><a href="#">News</a></li>
+                    </ul>
+                 </td>
+                <td><ul>
+                    <li class="links-2"><a href="#">Facebook</a></li>
+                    <li class="links-2"><a href="#">Instagram</a></li>
+                    <li class="links-2"><a href="#">Twitter</a></li>
+                    <li class="links-2"><a href="#">LinkedIn</a></li>
+                    
+               </ul></td>
+                <td>
+                    <ul>
+                        <li class="links-2">123 ABC Metro</li>
+                        <li class="links-2">092124101</li>
+                        <li class="links-2">981-0302</li>
+                
+                   </ul>
+                </td>
+            </tr>
+        </center>
+        </table>
+    </div>
+</body>
+</html>

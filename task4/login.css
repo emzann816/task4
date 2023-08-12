@@ -1,0 +1,128 @@
+.input[type=text], select {
+    width: 200px;
+    padding: 22px 30px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .lname, .fname, .age, .phonenumber, .pic, .gender, option {
+    width: 350px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    box-shadow: #4CAF50;
+    padding: 22px 30px;
+  }
+  .country {
+    width: 500px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    text-align: left;
+    box-shadow: #4CAF50;
+    padding: 10px;
+    color:#818181
+  }
+
+  th {
+    padding: 50px;
+  }
+  .container {
+    border-radius: 0px;
+    background-color: rgb(94, 74, 165);
+    padding: 20px;
+  }
+
+  .label {
+    text-align: left;
+    padding: 50px;
+    
+  }
+  table {
+    background-color: lightblue;
+    padding: 20px;
+    color: black;
+    height: 300px;
+    border-radius: 15px;
+    align:center;
+    width:1000px;
+    text-align:left;
+  }
+    
+.aside {
+    height: auto;
+    width: auto;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:white ;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: black;
+    border-radius: 15px;
+    align:right;
+
+}
+  .submit-1 {
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    background-color: green;
+  }
+  
+  .submit-2 {
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    background-color: red;
+  }
+  .input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .body {
+    background-image: url(hand-painted-watercolor-pastel-sky-background_23-2148902771.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .profile-bg {
+    background-color: aquamarine;
+  }
+  

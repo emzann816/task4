@@ -1,0 +1,161 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <link rel="stylesheet" href="../task1/index.css">
+    <link rel="stylesheet" href="../TASK2/cards.css">
+    <link rel="stylesheet" href="../task3/index.css">
+    <link rel="stylesheet" href="../task4/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <hr class="new1">
+    <div class="opacity"></div>
+    <nav>
+        <ul>
+            <li><a href="#" class="links"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#" class="links"><i class="fa fa-info-circle"></i> About</a></li>
+            <li><a href="#" class="links"> <i class="fa fa-list-alt"></i> Categories</a></li>
+            <li><a href="#" class="links"><i class="fa fa-address-book"></i> Contacts</a></li>
+                <li>
+                    <div class="row">
+                       <div class="col-md-4">
+                        <input class="form-control" name="name" type="text" placeholder="Search..." />
+                           <button class="button" aria-hidden="true"><i class="fa fa-search "></i> Search</button> 
+                        </div>
+                    </div>
+               </li>
+               <li class="login"><a href="#"> <i class="fa fa-user-circle"></i> Login </a></li>
+               <li class="login"><a href="#"> <i class="fa fa-sign-in"></i> Signup </a></li>
+        </ul>
+    </nav>
+
+    <div class="container">   
+        <h2 style="text-align:center";> Edit my profile </h2>
+            
+            <table style="background-color: blueviolet; border-radius: 15px; font-size: large; text-align: left; padding: 20px 20px 30px;">
+                <thead>
+                <tr>
+                <th><label for="fname" style="text-align: left"> Firstname : </label></th>
+                 <th><input class="fname" type="text" id="fname" name="fname" placeholder="Your name.." required></i></th>
+                
+                    <th><label for="lname" style="text-align: left">Lastname : </h3></label></th>
+                     <th><input class="fname" type="text" id="fname" name="fname" placeholder="Your name.." required></i></th>
+                    </tr>
+            
+                     <tr>
+                        <th><label for="bdate" style="text-align: left"> Birthday : </label></th>
+                        <th><input class="bdate" type="date" id="bdate" name="bdate" style="text-align: justify"></i></th>
+                        <th><label for="country" style="text-align: left">Country:</label></th>
+                        <th><select id="country" name="country" class="country" required>
+                              <option value="australia" class="cc">Australia</option>
+                                  <option value="canada" class="cc">Canada</option>
+                                     <option value="usa" class="cc">USA</option>
+                                     <option value="usa" class="cc">Korea</option>
+                                     <option value="usa" class="cc">Japan</option>
+                                     <option value="usa" class="cc">Philippines</option>
+                                     <option value="usa" class="cc">India</option>
+                                     <option value="usa" class="cc">Singapore</option>
+                                     <option value="usa">Thailand</option>
+                                     <option value="usa" class="cc">China</option>
+                                     <option value="usa" class="cc">Malaysia</option> </select>
+                </th>
+                    </tr>
+    
+                    <tr>
+                        <th> <label for="comments" style="text-align: left">Address: </label> 
+                        </th>
+                        <th><textarea id="comments" name="comments" rows="3" cols="42"></textarea></th>
+                        <th><label for="province" style="text-align: left">Province:</label></th>
+                        <th><select id="province" name="province" class="country">
+                              <option value="Pampanga">Pampanga</option>
+                                  <option value="Pangasinan">Pangasinan</option>
+                                     <option value="Bataan">Bataan</option>
+                                     <option value="Ilocos Sur">Ilocos Sur</option>
+                                     <option value="Ilocos Norte">Ilocos Sur</option>
+                                     <option value="CAR Region">CAR Region</option>
+                                     <option value="Laguna">Laguna</option>
+                                     <option value="Zambales">Zambales</option>
+                                     <option value="Bulacan">Bulacan</option>
+                                     <option value="usa">China</option>
+                                     <option value="usa">Malaysia</option> </select>
+                </th>
+                        </tr>
+                        <tr>
+                            
+                            <th><label for="phonenumber" style="text-align: left"> Phone Number: </label></th>
+
+                            <th><input class="fname" type="text" id="fname" name="fname" placeholder="Your phonenumber.." style="text-align: justify" maxlength="11" required></i></th>
+                                <th><label for="age" style="text-align: left">Age : </h3></label></th>
+                                 <th><input class="age" type="number" id="age" name="age" placeholder="Your age.." style="text-align: justify" required></i></th>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                    <label for="pic" style="text-align: left"> Upload your picture:</label></th>
+                                     <th> <input type="file" class="fname"> </th>
+                                    <th> <label for="gender" style="text-align: left"> Gender: </label>  </th>
+                                        <th><label for="radio" style="text-align: left">Male </label> 
+                                            <input type="radio" id="opt1" value="Male" style="text-align: left">
+                                            <label for="radio" style="text-align: left">Female </label> 
+                                                <input type="radio" id="opt1" value="Female" style="text-align: left">
+                                                <label for="radio" style="text-align: left">Prefer not to say </label> 
+                                                <input type="radio" id="opt1" value="Female" style="text-align: left"> </th>
+                                            </tr>
+                                        <tr>
+                                            <br>
+                                        <right>
+                                            <th colspan="4" rowspan="3"> <button class="submit-1" style="text-align: center;">Submit</button> 
+                                            <button class="submit-2" style="text-align: center">Cancel</button> </th> </right>
+                                        </tr>
+                </table>
+                
+                                        
+            
+        
+    </form>
+</div>
+            </div>
+        
+    <div class="center">
+        <div class="footer">
+            <center>
+            <table>
+                
+                 
+                   <tr>
+                    <td>
+                        <img src="../task3/logo__2_.png">
+                    </td>
+                    <td>
+                        <ul>
+                             <li class="links-2"><a href="#">Home</a></li>
+                             <li class="links-2"><a href="#">About</a></li>
+                             <li class="links-2"><a href="#">Categories</a></li>
+                             <li class="links-2"><a href="#">News</a></li>
+                        </ul>
+                     </td>
+                    <td><ul>
+                        <li class="links-2"><a href="#">Facebook</a></li>
+                        <li class="links-2"><a href="#">Instagram</a></li>
+                        <li class="links-2"><a href="#">Twitter</a></li>
+                        <li class="links-2"><a href="#">LinkedIn</a></li>
+                        
+                   </ul></td>
+                    <td>
+                        <ul>
+                            <li class="links-2">123 ABC Metro</li>
+                            <li class="links-2">092124101</li>
+                            <li class="links-2">981-0302</li>
+                    
+                       </ul>
+                    </td>
+                </tr>
+            </center>
+            </table>
+        </div>
+</body>
+</html>
